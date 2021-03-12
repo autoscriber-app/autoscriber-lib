@@ -1,7 +1,7 @@
 # autoscriber-lib
 Add this
 ```txt
-git+git://github.com/autoscriber-app/autoscriber-lib.git@master#egg=autoscriber
+pip3 install --no-cache-dir --upgrade -e "git+git://github.com/autoscriber-app/autoscriber-lib.git@master#subdirectory=autoscriber&egg=autoscriber"
 ```
 ### Install Requirements
 ```bash
