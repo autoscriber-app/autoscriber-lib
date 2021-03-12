@@ -3,7 +3,7 @@ Python library for the autoscriber summarizer. Honestly, it's just a wrapper lib
 
 # Install
 ```bash
-pip3 install --upgrade autoscriber
+python3 -m pip install --upgrade autoscriber
 python3 -m spacy download en_core_web_md
 ```
 
