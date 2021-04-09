@@ -3,3 +3,5 @@ spacy
 transformers
 neuralcoref
 torch
+sentencepiece
+nltk

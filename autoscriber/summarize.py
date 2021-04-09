@@ -1,4 +1,8 @@
 # %%
+import spacy
+spacy.cli.download("en_core_web_md")
+
+# %%
 from summarizer import Summarizer
 import nltk
 
