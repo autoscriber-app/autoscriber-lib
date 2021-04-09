@@ -13,7 +13,7 @@ model = Summarizer()
 
 # %%
 def summarize(text):
-    return [sent.strip() for sent in nltk.sent_tokenize(model(text))]
+    return [" ".join(sent.strip().split()) for sent in nltk.sent_tokenize(model(text))]
 
 
 # %%
