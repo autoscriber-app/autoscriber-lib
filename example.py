@@ -1,5 +1,7 @@
+# %%
 from autoscriber import summarize
 
+# %%
 print(
     summarize(
         """

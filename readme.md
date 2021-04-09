@@ -1,5 +1,5 @@
 # autoscriber-lib
-Python library for the autoscriber summarizer. Honestly, it's just a wrapper lib XD
+Python library for the autoscriber summarizer.
 
 ## Install
 ```bash
@@ -9,7 +9,7 @@ python3 -m pip install --upgrade autoscriber
 ## Usage
 ```python
 from autoscriber import summarize
-summarize("text here") # list
+summarize("text here") # list of bullets
 ```
 
 ## Run Example
