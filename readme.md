@@ -9,7 +9,7 @@ python3 -m pip install --upgrade autoscriber
 ## Usage
 ```python
 from autoscriber import summarize
-summarize("text here") # list of bullets
+summarize("text here") # list of bullet points
 ```
 
 ## Run Example
